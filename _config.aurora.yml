@@ -16,8 +16,8 @@ site:
   link: '/'
   language: cn
   multi_language: true
-  logo: http://kw.koznak.top/static/IMG_3605.JPG
-  avatar: http://kw.koznak.top/static/IMG_3605.JPG
+  logo: https://test-1257728582.cos.ap-chengdu.myqcloud.com/avter/IMG_3605.jpeg
+  avatar: https://test-1257728582.cos.ap-chengdu.myqcloud.com/avter/IMG_3605.jpeg
   beian:
     number: ''
     link: ''
@@ -44,7 +44,7 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: false
+  About: true
   Tags: true
   Archives: true
 
