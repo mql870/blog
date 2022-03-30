@@ -40,7 +40,7 @@ jobs:
     - name: Setup Git Infomation
       run: | 
         git config --global user.name '1471066859' 
-        git config --global user.email '<1471066859@qq.com>'
+        git config --global user.email '1471066859@qq.com'
     - name: Deploy Hexo 
       run: |
         rm -rf .deploy_git
