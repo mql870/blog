@@ -30,7 +30,7 @@ jobs:
     
     - name: Setup Deploy Private Key
       env:
-        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.1471066859@qq.com }}
+        HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
       run: |
         mkdir -p ~/.ssh/
         echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
@@ -45,4 +45,4 @@ jobs:
       run: |
         hexo clean
         hexo generate 
-        hexo deploy 
+        npm run deploy  
